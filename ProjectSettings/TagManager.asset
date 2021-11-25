@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - Bullet
   - Launcher
+  - Score
+  - GameManager
   layers:
   - Default
   - TransparentFX
