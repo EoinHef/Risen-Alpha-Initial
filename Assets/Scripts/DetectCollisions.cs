@@ -19,12 +19,14 @@ public class DetectCollisions : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        //Removing collisions with the terrain
         if (other.gameObject.transform.tag == "Ground")
         {
             //do Nothing
         }
         else
         {
+            //Remove both game objects when they collide
             Destroy(gameObject);
             Destroy(other.gameObject);
         }
