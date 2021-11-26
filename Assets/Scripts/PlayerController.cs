@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour
     //Variable to set x bounds
     private float xRange = 20.0f;
     //Variable to set z bounds
-    private float zRange = 18.0f;
+    private float zRange = 14.0f;
     
     
     // Start is called before the first frame update
