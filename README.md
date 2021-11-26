@@ -14,6 +14,11 @@
   Fixed collisions so enemies dont despawn each other
   Score board added to top left of screen
   
+-Build 5
+  Added a Game Over Text. 
+  Added Restart Button
+  Added text to show Game Over conditions at start of game
+  
   
  -Work that needs to be done
    1. Menu,play and exit options
