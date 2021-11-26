@@ -22,14 +22,16 @@ public class MainMenu : MonoBehaviour
     {
         
     }
-
+    //Logic for button on the main menu
     public void NewGame()
     {
+        //Starts a new game on button press
         SceneManager.LoadScene(newGameScene);
     }
 
     public void QuitGame()
     {
+        //Quits application on button press on main menu
         Application.Quit();
     }
 }

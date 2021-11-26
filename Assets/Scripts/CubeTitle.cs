@@ -13,6 +13,7 @@ public class CubeTitle : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Script just rotates the cube on the title screen
         transform.Rotate(Vector3.up * (Time.deltaTime * 5 * 10)); 
         transform.Rotate(Vector3.right * (Time.deltaTime * 5 * 10)); 
     }
