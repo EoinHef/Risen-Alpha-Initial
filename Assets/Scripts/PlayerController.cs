@@ -13,9 +13,9 @@ public class PlayerController : MonoBehaviour
     //Variable for speed to be applied to the player
     public float speed = 10.0f;
     //Variable to set x bounds
-    public float xRange = 18.0f;
+    private float xRange = 20.0f;
     //Variable to set z bounds
-    public float zRange = 18.0f;
+    private float zRange = 18.0f;
     
     
     // Start is called before the first frame update
